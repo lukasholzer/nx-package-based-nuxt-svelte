@@ -32,8 +32,19 @@ node_modules
 npm-debug.log
 yarn-error.log
 testem.log
+*.log*
 /typings
+.env
 
 # System Files
 .DS_Store
 Thumbs.db
+
+
+
+# move to root to fix cache issue due to hashing
+.svelte-kit
+.nuxt
+.nitro
+.cache
+.output

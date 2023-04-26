@@ -2,6 +2,7 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+  import {MyComponent} from '@my-org/ui-components'
 </script>
 
 <svelte:head>
@@ -12,10 +13,9 @@
 <section>
 	<h1>
 		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
+
+      <h1>Web Component</h1>
+
 		</span>
 
 		to your new<br />SvelteKit app
